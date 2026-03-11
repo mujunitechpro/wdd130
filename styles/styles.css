@@ -45,7 +45,7 @@ main img {
     height: auto;
     border: 1px solid grey;
     padding: 2px;
-    box-shadow: gray;
+    box-shadow: 2px 2px 5px gray;
 }
 
 p {
