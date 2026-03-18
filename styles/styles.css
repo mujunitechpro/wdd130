@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 :root {
     --primary-color: #396e94;
     --secondary-color: #E7C24F;
@@ -24,9 +30,15 @@ body {
     font-family: var(--paragraph-font);
 }
 
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200px;
+}
+
 h1 {
     font-family: var(--heading-font);
     color: var(--primary-color);
+    padding: .5rem;
 }
 
 nav {
@@ -45,17 +57,25 @@ main {
 }
 
 aside {
-    width: 20rem;
-    margin: 1rem;
-    border: 1px solid rgb(0 0 0 / 0.2);
+    width: 20em;
+    margin: 3rem;
+    border: 3px solid rgb(0 0 0 / 0.2);
     padding: 1rem;
     background-color: var(--aside-bg);
     color: var(--aside-text);
     text-align: center;
+    position: relative;
+}
+
+aside h2 {
+    position: absolute;
+    top: 15px;
+    left: 190px;
+    right: 100px;
 }
 
 aside img {
-    width: 200px;
+    width: 150px;
     height: auto;
 }
 
@@ -68,11 +88,14 @@ img {
 }
 
 main img {
-    width: 150px;
+    float: right;
+    width: 149px;
     height: auto;
+    margin-left: 20px;
+    margin-bottom: 10px;
     border: 1px solid var(--border-color-light);
     padding: 2px;
-    box-shadow: 2px 2px 5px var(--box-shadow-color);
+    box-shadow: 0 0 10px var(--box-shadow-color);
 }
 
 p {
@@ -83,4 +106,17 @@ footer {
     margin-top: 15px;
     border-top: 1px solid var(--border-color-dark);
     text-align: center;
+}
+
+/* Class Selectors*/
+.box {
+    margin: 1rem;
+    border: 1px solid rgb(0 0 0 / 10%);
+    padding: 1rem;
+    background-color: #ddd;
+    color: #000;
+}
+
+.indent {
+    padding-left: 2rem;
 }
