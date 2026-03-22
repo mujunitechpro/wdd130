@@ -26,6 +26,12 @@ footer {
     padding: 10px;
 }
 
+h1,
+h2 {
+    font-family: var(--heading-font);
+    color: #fff;
+}
+
 /* Header & Vertical Nav */
 header {
     display: flex;
@@ -97,6 +103,7 @@ nav ul li a {
     width: 100px;
     height: auto;
     border: 3px solid #fff;
+    float: right;
 }
 
 /* Section Headings */
@@ -130,6 +137,10 @@ footer p {
 .socialmedia {
     display: flex;
     gap: 15px;
+}
+
+.socialmedia a {
+    text-decoration: none;
 }
 
 .socialmedia img {
