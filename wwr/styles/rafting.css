@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 :root {
     --primary-color: #e0b0ff;
     --secondary-color: #6a0dad;
@@ -90,7 +96,7 @@ nav a:hover {
 }
 
 .hero-container {
-    position: absolute;
+    position: relative;
     top: 80%;
     left: 70px;
     transform: translateY(-50%);
