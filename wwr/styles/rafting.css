@@ -58,14 +58,14 @@ article {
     padding: 8px;
 }
 
-nav ul{
+nav ul {
     display: flex;
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
 
-nav li a{
+nav li a {
     display: block;
     text-decoration: none;
     color: #333;
@@ -75,11 +75,11 @@ nav li a{
     border-left: none;
 }
 
-nav li a:hover{
+nav li a:hover {
     background-color: #f0f0f0;
 }
 
-nav li:first-child a{
+nav li:first-child a {
     border-left: 1px solid #777;
 }
 
@@ -129,10 +129,11 @@ h1 {
     flex-shrink: 0;
 }
 
-.hero article p{
+.hero article p {
     margin: 0;
     line-height: 1.4;
 }
+
 .history {
     padding: 20px;
     text-align: center;
@@ -192,6 +193,10 @@ footer {
     margin-top: 20px;
     max-width: 1200px;
     width: 95%;
+}
+
+.socialmedia a {
+    text-decoration: none;
 }
 
 .socialmedia {
