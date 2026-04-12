@@ -258,15 +258,6 @@ footer {
     z-index: 3;
 }
 
-@media (max-width: 900px) {
-    .hero {
-        height: 250px;
-        background-position: center;
-        background-size: cover;
-    }
-}
-
-
   .hero img {
       display: block;
       width: 100%;
@@ -289,6 +280,14 @@ footer {
       display: flex;
       align-self: center;
       gap: 15px;
+  }
+
+  @media (max-width: 900px) {
+      .hero {
+          height: 250px;
+          background-position: center;
+          background-size: cover;
+      }
   }
 
   .hero article img {
