@@ -258,6 +258,14 @@ footer {
     z-index: 3;
 }
 
+@media (max-width: 900px) {
+    .hero {
+        height: 250px;
+        background-position: center;
+        background-size: cover;
+    }
+}
+
 
   .hero img {
       display: block;
