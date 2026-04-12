@@ -240,6 +240,17 @@ footer {
 }
 
 /*---about.html---*/
+
+@media screen and (max-width: 600px) {
+    nav ul{
+        flex-direction: column;
+        align-items: stretch;
+    }
+    nav li{
+        margin: 5px 0;
+        text-align: center;
+    }
+}
   .hero {
       position: relative;
   }
@@ -282,14 +293,7 @@ footer {
       gap: 15px;
   }
 
-  @media (max-width: 900px) {
-      .hero {
-          height: 250px;
-          background-position: center;
-          background-size: cover;
-      }
-  }
-
+  
   .hero article img {
       float: right;
       width: 125px;
